@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6BFF8323-B90C-426D-8916-A40D58C60D00}"
+	ProjectSection(SolutionItems) = preProject
+		FEMprog1.vsmdi = FEMprog1.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEMprog", "FEMprog\FEMprog.csproj", "{99856ED5-54A4-4DAA-B6C1-5787413AFFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangulation", "Tringulation\Triangulation.csproj", "{CDE2471F-76AD-4997-821A-AD863DE1F01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testproj", "Testproj\Testproj.csproj", "{9DE9313E-1A79-4037-913B-36A80229C844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEMLibrary", "FEMLibrary\FEMLibrary.csproj", "{65BD1D54-5D3E-4991-882D-4BCA21F1865C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDESolverUnitTest", "PDESolverUnitTest\PDESolverUnitTest.csproj", "{054FA420-C905-4476-9FE6-87C8EDC68E83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99856ED5-54A4-4DAA-B6C1-5787413AFFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99856ED5-54A4-4DAA-B6C1-5787413AFFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99856ED5-54A4-4DAA-B6C1-5787413AFFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99856ED5-54A4-4DAA-B6C1-5787413AFFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE2471F-76AD-4997-821A-AD863DE1F01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE2471F-76AD-4997-821A-AD863DE1F01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE2471F-76AD-4997-821A-AD863DE1F01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE2471F-76AD-4997-821A-AD863DE1F01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE9313E-1A79-4037-913B-36A80229C844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE9313E-1A79-4037-913B-36A80229C844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE9313E-1A79-4037-913B-36A80229C844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE9313E-1A79-4037-913B-36A80229C844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BD1D54-5D3E-4991-882D-4BCA21F1865C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BD1D54-5D3E-4991-882D-4BCA21F1865C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BD1D54-5D3E-4991-882D-4BCA21F1865C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BD1D54-5D3E-4991-882D-4BCA21F1865C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054FA420-C905-4476-9FE6-87C8EDC68E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054FA420-C905-4476-9FE6-87C8EDC68E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054FA420-C905-4476-9FE6-87C8EDC68E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054FA420-C905-4476-9FE6-87C8EDC68E83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FEMprog1.vsmdi
+	EndGlobalSection
+EndGlobal
